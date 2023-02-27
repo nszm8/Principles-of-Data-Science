@@ -1,0 +1,8 @@
+library(readr)
+library(plotrix)
+StudentsPerformance <- read_csv("Desktop/StudentsPerformance.csv")
+View(StudentsPerformance)
+attach(StudentsPerformance)
+ple <- c(119,227,60,197,180,223)
+lbl <- c("bachelor's degree","some college","master's degree","high school","some high school","associate's degree")
+pie3D(ple,labels = lbl,main="Pie chart for Parent Level of Education")

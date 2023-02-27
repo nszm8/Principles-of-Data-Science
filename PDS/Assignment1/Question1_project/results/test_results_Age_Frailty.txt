@@ -1,0 +1,12 @@
+
+	Welch Two Sample t-test
+
+data:  clean_yield_data$Age by clean_yield_data$Frailty
+t = 0.23787, df = 6.6188, p-value = 0.8192
+alternative hypothesis: true difference in means between group N and group Y is not equal to 0
+95 percent confidence interval:
+ -18.87091  23.03757
+sample estimates:
+mean in group N mean in group Y 
+       33.33333        31.25000 
+

@@ -1,0 +1,12 @@
+
+	Welch Two Sample t-test
+
+data:  clean_yield_data$BMI by clean_yield_data$Frailty
+t = -2.0483, df = 7.9986, p-value = 0.07471
+alternative hypothesis: true difference in means between group N and group Y is not equal to 0
+95 percent confidence interval:
+ -4.0410863  0.2392467
+sample estimates:
+mean in group N mean in group Y 
+       18.92053        20.82145 
+

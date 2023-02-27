@@ -1,0 +1,5 @@
+library(readr)
+StudentsPerformance <- read_csv("Desktop/StudentsPerformance.csv")
+View(StudentsPerformance)
+attach(StudentsPerformance)
+hist(`reading score`,col = "green")
